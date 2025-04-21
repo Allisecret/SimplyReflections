@@ -385,7 +385,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border: 2px solid white;
+    border: 1px solid white;
     -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
@@ -832,6 +832,16 @@ body {
 
 .min-w-10{
     min-width: 2.5rem;
+}
+@media(min-width:1200px){
+    .container{
+        max-width: 1200px;
+    }
+}
+@media(min-width:1400px){
+    .container{
+        max-width: 1320px;
+    }
 }
 @media(min-width:2000px){
     .xxl_mh_auto{
